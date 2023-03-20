@@ -1,8 +1,9 @@
 #python 3.7
 import pyautogui  #0.9.53
-pyautogui.FAILSAFE = False
+pyautogui.FAILSAFE = False#预防出现移动鼠标错误
 import time 
 import random
-#确认开始位置，控制鼠标点击，点击之后随机移动鼠标，时间过后回到初始位置再次进行点击
-#拒绝接受协助
+#每次运行都判断是否出现悬赏
+#确认开始位置，进行鼠标点击，之后随机移动鼠标，完成回到初始位置进行点击
+
 
