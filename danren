@@ -4,5 +4,5 @@ pyautogui.FAILSAFE = False
 import time 
 import random
 #确认开始位置，控制鼠标点击，点击之后随机移动鼠标，时间过后回到初始位置再次进行点击
-
+#拒绝接受协助
 
