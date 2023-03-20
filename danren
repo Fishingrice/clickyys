@@ -3,7 +3,7 @@ import pyautogui  #0.9.53
 pyautogui.FAILSAFE = False#预防出现移动鼠标错误
 import time 
 import random
-#每次运行都判断是否出现悬赏
+#每次进入副本都判断一次是否出现悬赏
 #确认开始位置，进行鼠标点击，之后随机移动鼠标，完成回到初始位置进行点击
 
 
